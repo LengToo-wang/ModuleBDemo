@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8F9C56FD2574D560007692AF /* LTModuleBPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C56FB2574D560007692AF /* LTModuleBPageVC.m */; };
+		8F9C56FE2574D560007692AF /* LTModuleBPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C56FC2574D560007692AF /* LTModuleBPageVC.xib */; };
 		CBDD8AFBEB598ED565B0560E /* Pods_ModuleB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508DA3D4D04A3366BDD9808D /* Pods_ModuleB_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,12 +61,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		67A53A4B253B46D91B7C6CE4 /* ModuleB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ModuleB.podspec; path = ../ModuleB.podspec; sourceTree = "<group>"; };
+		67A53A4B253B46D91B7C6CE4 /* ModuleB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ModuleB.podspec; path = ../ModuleB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F9C56FA2574D560007692AF /* LTModuleBPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LTModuleBPageVC.h; path = ../../ModuleB/Classes/LTModuleBPageVC.h; sourceTree = "<group>"; };
+		8F9C56FB2574D560007692AF /* LTModuleBPageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LTModuleBPageVC.m; path = ../../ModuleB/Classes/LTModuleBPageVC.m; sourceTree = "<group>"; };
+		8F9C56FC2574D560007692AF /* LTModuleBPageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LTModuleBPageVC.xib; path = ../../ModuleB/Classes/LTModuleBPageVC.xib; sourceTree = "<group>"; };
 		AD6B60E9AE955D1E22C1C2AF /* Pods-ModuleB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ModuleB_Tests/Pods-ModuleB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB8F6A2B2EF94A1ED4AABB03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DBD9BF8357BDEEE8DD1A5B0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB8F6A2B2EF94A1ED4AABB03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DBD9BF8357BDEEE8DD1A5B0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E15685392647997EBFCB841E /* Pods-ModuleB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleB_Example.debug.xcconfig"; path = "Target Support Files/Pods-ModuleB_Example/Pods-ModuleB_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E751880F50D2E451A6BC2D /* Pods-ModuleB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleB_Example.release.xcconfig"; path = "Target Support Files/Pods-ModuleB_Example/Pods-ModuleB_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +142,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LTViewController.h */,
 				6003F5A6195388D20070C39A /* LTViewController.m */,
+				8F9C56FA2574D560007692AF /* LTModuleBPageVC.h */,
+				8F9C56FB2574D560007692AF /* LTModuleBPageVC.m */,
+				8F9C56FC2574D560007692AF /* LTModuleBPageVC.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +201,6 @@
 				AD6B60E9AE955D1E22C1C2AF /* Pods-ModuleB_Tests.debug.xcconfig */,
 				5D6168C189ACF250B0F776B4 /* Pods-ModuleB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				8F9C56FE2574D560007692AF /* LTModuleBPageVC.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -366,6 +375,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LTViewController.m in Sources */,
+				8F9C56FD2574D560007692AF /* LTModuleBPageVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
